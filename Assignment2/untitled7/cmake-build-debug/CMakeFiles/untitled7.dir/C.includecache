@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Makos/CLionProjects/untitled7/game_init.h
+stdbool.h
+-
+
+/cygdrive/c/Users/Makos/CLionProjects/untitled7/input_output.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+input_output.h
+/cygdrive/c/Users/Makos/CLionProjects/untitled7/input_output.h
+
+/cygdrive/c/Users/Makos/CLionProjects/untitled7/input_output.h
+logic.h
+/cygdrive/c/Users/Makos/CLionProjects/untitled7/logic.h
+
+/cygdrive/c/Users/Makos/CLionProjects/untitled7/logic.h
+game_init.h
+/cygdrive/c/Users/Makos/CLionProjects/untitled7/game_init.h
+stdbool.h
+-
+
+/cygdrive/c/Users/Makos/CLionProjects/untitled7/main.c
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+input_output.h
+/cygdrive/c/Users/Makos/CLionProjects/untitled7/input_output.h
+

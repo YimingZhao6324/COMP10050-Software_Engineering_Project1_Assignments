@@ -1,0 +1,13 @@
+# COMP10050
+For the realiztion of this assignment, I used the following method.
+1. For the rounds of players, I used three while loops, the biggest one is for the game, and the other two is for the two players, once the winning condition is met, the loop will be exited.
+
+2.To initialize players, I make the players to enter their name, and the color is preselected because I found bug occured once it's selected by players, so I just make this preselected instead.
+
+3.For moving the stacks, I was using the method provided by the slide in the lectures, and the increment of the holding and captured pieces, is judged by if the bottom piece is the color of the piece on the top of the stacks, and to check if the move is valid, I worte a new function, this is run before the moving function to check if the input is valid, if it return true, the moving function is then runned.
+
+4.The function of placing a new piece, is pretty much the same as the moving of the stacks, I only validated the 0,0 square to store the piece then move to the required square, but an unsual error occured when I was writing the new function to check if the move is valid, so I just put it in this function instead.
+
+5.For the input of coordinate for the players, I firstly decided to use scanf function, but the program start to have error and doesn't work, so I used the fget function instead, it also helped to make the code neater since there's no need to write a scanf function to chose from move a existed piece or new a piece.
+
+6.For the winning condition, the for loops will go over the board to see if there's any color belonging to the player, if no, then it will jump out of the loop and print the result.
